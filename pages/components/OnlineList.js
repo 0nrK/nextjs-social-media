@@ -11,7 +11,7 @@ const OnlineList = () => {
         {onlineMenu ? 
         <div 
         onClick={() => setOnlineMenu(!onlineMenu)}
-        className="h-96 transition-all">
+        className="h-96 transition-all ">
             <button 
             className="w-96 p-4 flex justify-between fixed bottom-0 right-0 rounded-lg text-white text-center text-xl bg-gray-700">
                 Online Friends
@@ -24,7 +24,7 @@ const OnlineList = () => {
         :
         <div 
         onClick={() => setOnlineMenu(!onlineMenu)}
-        className="fixed bottom-0 right-0 rounded-lg transition-all duration-1000 h-96 bg-gray-700 text-gray-50">
+        className="fixed bottom-0 right-0 rounded-lg transition-all  duration-300 h-96 bg-gray-700 text-gray-50">
             <h1 className="flex justify-between p-4 w-96 text-xl">
                 Online Friends
                 {/* Down icon */}
