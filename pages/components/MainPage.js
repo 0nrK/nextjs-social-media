@@ -9,7 +9,6 @@ import Sidebar from './Sidebar'
 const MainPage = () => {
     return (
         <div className="bg-gray-800">
-            <Navbar/>
             <AccountMenu/>
             <div className="flex">
                 <Sidebar/>

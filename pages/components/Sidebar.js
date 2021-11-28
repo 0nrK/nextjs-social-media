@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const Sidebar = () => {
     return ( 
-        <div className="flex flex-col sticky top-10 left-0 h-64 w-1/5 -mt-4 bg-transparent text-gray-300 justify-center ">
-            <div className="flex items-center text-xl w-auto ml-1 p-1 hover:bg-gray-500">
+        <div className="flex flex-col sticky top-20 left-0 h-64 w-1/5 -mt-4 bg-transparent text-gray-300 justify-center ">
+            <div className="flex items-center text-xl w-auto  ml-1 p-1 hover:bg-gray-500">
                 <Image
                 src="/person.jpeg"
                 width={48}
@@ -24,7 +24,7 @@ const Sidebar = () => {
                 <span className="text-xl">Friends</span>
             </div>
             {/* Saved */}
-            <div className="flex items-center p-3 hover:bg-gray-500">
+            <div className="flex items-center p-3 cursor-pointer hover:bg-gray-500">
                 <svg className="w-8 h-8 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
                 </svg>

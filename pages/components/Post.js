@@ -8,7 +8,6 @@ const Post = ({name, id, content}) => {
     const [hasLiked,setHasLiked] = useState(false)
     const [saved, setSaved] = useState(false)
 
-    const dispatch = useDispatch();
 
     const handleLike = () => {
         setHasLiked(!hasLiked)
